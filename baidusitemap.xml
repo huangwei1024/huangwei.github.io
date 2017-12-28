@@ -329,6 +329,28 @@
 
     
   <url>
+    <loc>http://huangwei.pro/2015-08/modern-opengl2/</loc>
+    <lastmod>2017-12-28T10:11:39.985Z</lastmod>
+    <data>
+        <display>
+        <title>现代OpenGL教程 02 - 贴图</title>
+        <pubTime>2015-08-05T16:00:00.000Z</pubTime>
+        
+        <tag>opengl</tag>
+         
+        <tag>tutorials</tag>
+         
+         
+           
+             
+              <breadCrumb title="modern-opengl-tutorials" url="http://huangwei.pro/categories/modern-opengl-tutorials/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
     <loc>http://huangwei.pro/2007-08/max-not-combined/</loc>
     <lastmod>2017-12-28T10:11:39.985Z</lastmod>
     <data>
@@ -357,28 +379,6 @@
         <display>
         <title>现代OpenGL教程 01 - 入门指南</title>
         <pubTime>2015-05-12T16:00:00.000Z</pubTime>
-        
-        <tag>opengl</tag>
-         
-        <tag>tutorials</tag>
-         
-         
-           
-             
-              <breadCrumb title="modern-opengl-tutorials" url="http://huangwei.pro/categories/modern-opengl-tutorials/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>http://huangwei.pro/2015-08/modern-opengl2/</loc>
-    <lastmod>2017-12-28T10:11:39.985Z</lastmod>
-    <data>
-        <display>
-        <title>现代OpenGL教程 02 - 贴图</title>
-        <pubTime>2015-08-05T16:00:00.000Z</pubTime>
         
         <tag>opengl</tag>
          
@@ -516,28 +516,6 @@
 
     
   <url>
-    <loc>http://huangwei.pro/2007-09/chinese-postman-problem/</loc>
-    <lastmod>2017-12-28T10:11:39.983Z</lastmod>
-    <data>
-        <display>
-        <title>关于中国邮递员问题和欧拉图应用</title>
-        <pubTime>2007-09-07T16:00:00.000Z</pubTime>
-        
-        <tag>graph_theory</tag>
-         
-        <tag>acm</tag>
-         
-         
-           
-             
-              <breadCrumb title="algorithm" url="http://huangwei.pro/categories/algorithm/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
     <loc>http://huangwei.pro/2014-07/doom-clean-code/</loc>
     <lastmod>2017-12-28T10:11:39.983Z</lastmod>
     <data>
@@ -553,6 +531,28 @@
            
              
               <breadCrumb title="develop" url="http://huangwei.pro/categories/develop/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://huangwei.pro/2007-09/chinese-postman-problem/</loc>
+    <lastmod>2017-12-28T10:11:39.983Z</lastmod>
+    <data>
+        <display>
+        <title>关于中国邮递员问题和欧拉图应用</title>
+        <pubTime>2007-09-07T16:00:00.000Z</pubTime>
+        
+        <tag>graph_theory</tag>
+         
+        <tag>acm</tag>
+         
+         
+           
+             
+              <breadCrumb title="algorithm" url="http://huangwei.pro/categories/algorithm/"/>
           
         </display>
     </data>
