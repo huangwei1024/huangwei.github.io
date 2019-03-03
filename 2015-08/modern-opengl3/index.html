@@ -36,7 +36,7 @@
 <meta property="og:image" content="http://huangwei.pro/static/img/opengl-tutorials/depth-buffer-disabled.png">
 <meta property="og:image" content="http://huangwei.pro/static/img/opengl-tutorials/depth-buffer-correct.png">
 <meta property="og:image" content="http://huangwei.pro/static/img/opengl-tutorials/not-animated.png">
-<meta property="og:updated_time" content="2017-12-28T10:11:39.986Z">
+<meta property="og:updated_time" content="2018-01-02T10:03:12.345Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="现代OpenGL教程 03 - 矩阵，深度缓冲，动画">
 <meta name="twitter:description" content="本文中，我会将不会动的2D三角形替换为旋转的3D立方体。你会看到这样的效果：  现在我们终于能在屏幕上搞点有趣的东西了，我放了更多的动图在这里：http://imgur.com/a/x8q7R 为了生成旋转立方体，我们需要学些关于矩阵的数学，用于创建透视投影，旋转，平移和“相机”概念。我们还有必要学习些深度缓冲，和典型的随时间改变的3D应用，比如动画。">
@@ -45,7 +45,7 @@
     <link rel="alternative" href="/atom.xml" title="HuangWei&#39;s blog" type="application/atom+xml">
   
   
-    <link rel="icon" href="http://dn-huangweipro.qbox.me/static/favicon.ico">
+    <link rel="icon" href="http://huangwei.pro/static/favicon.ico">
   
   <link rel="stylesheet" type="text/css" href="/./main.0cf68a.css">
   <style type="text/css">
@@ -92,7 +92,7 @@ var _hmt = _hmt || [];
 <div class="intrude-less">
 	<header id="header" class="inner">
 		<a href="/" class="profilepic">
-			<img src="http://dn-huangweipro.qbox.me/images/default_avatar.jpg" class="js-avatar">
+			<img src="http://huangwei.pro/images/default_avatar.jpg" class="js-avatar">
 		</a>
 		<hgroup>
 		  <h1 class="header-author"><a href="/">HuangWei</a></h1>
@@ -156,7 +156,7 @@ var _hmt = _hmt || [];
 	<div class="intrude-less">
 		<header id="header" class="inner">
 			<div class="profilepic">
-				<img src="http://dn-huangweipro.qbox.me/images/default_avatar.jpg" class="js-avatar">
+				<img src="http://huangwei.pro/images/default_avatar.jpg" class="js-avatar">
 			</div>
 			<hgroup>
 			  <h1 class="header-author js-header-author">HuangWei</h1>
@@ -573,7 +573,7 @@ var _hmt = _hmt || [];
   <div class="outer">
     <div id="footer-info">
     	<div class="footer-left">
-    		&copy; 2017 HuangWei
+    		&copy; 2019 HuangWei
     	</div>
       	<div class="footer-right">
 		<a target="_blank" href="//shang.qq.com/wpa/qunwpa?idkey=cd675bc111a203d3ae8b7f069037bf1cb3127d6d6d431851d7acbbbe76d3962c"><img border="0" src="//pub.idqqimg.com/wpa/images/group.png" alt="游戏开发者俱乐部" title="游戏开发者俱乐部"></a>
@@ -600,7 +600,7 @@ var _hmt = _hmt || [];
 		innerArchive: true,
 		fancybox: undefined,
 		animate: undefined,
-		cdn: 'http://dn-huangweipro.qbox.me/',
+		cdn: 'http://huangwei.pro/',
 		showTags: false
 	}
 </script>
@@ -708,23 +708,15 @@ MathJax.Hub.Queue(function() {
               </li>
              
               <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color5">game</a>
-              </li>
-             
-              <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color2">random</a>
-              </li>
-             
-              <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color3">distribution</a>
-              </li>
-             
-              <li class="article-tag-list-item">
                 <a href="javascript:void(0)" class="js-tag color5">effective</a>
               </li>
              
               <li class="article-tag-list-item">
                 <a href="javascript:void(0)" class="js-tag color3">summary</a>
+              </li>
+             
+              <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="js-tag color5">game</a>
               </li>
              
               <li class="article-tag-list-item">
@@ -740,14 +732,6 @@ MathJax.Hub.Queue(function() {
               </li>
              
               <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color3">dev-log</a>
-              </li>
-             
-              <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color3">go</a>
-              </li>
-             
-              <li class="article-tag-list-item">
                 <a href="javascript:void(0)" class="js-tag color4">number_theory</a>
               </li>
              
@@ -757,6 +741,22 @@ MathJax.Hub.Queue(function() {
              
               <li class="article-tag-list-item">
                 <a href="javascript:void(0)" class="js-tag color5">tutorials</a>
+              </li>
+             
+              <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="js-tag color2">random</a>
+              </li>
+             
+              <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="js-tag color3">distribution</a>
+              </li>
+             
+              <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="js-tag color3">dev-log</a>
+              </li>
+             
+              <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="js-tag color3">go</a>
               </li>
              
               <li class="article-tag-list-item">
