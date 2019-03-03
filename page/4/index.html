@@ -10,7 +10,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
   
   
-    <meta name="keywords" content="huangwei1024, WisKey, 杭电acm, 网易游戏, 创业">
+    <meta name="keywords" content="huangwei1024, WisKey, HDU, ACM, 网易游戏, 创业">
   
 
   <meta name="description" content="前网易码农现苦逼创业轻微完美主义强迫症努力提升个人魅力，强化自身修养">
@@ -315,7 +315,7 @@ var _hmt = _hmt || [];
     <div class="article-entry" itemprop="articleBody">
       
         <h2 id="套接字架构"><a href="#套接字架构" class="headerlink" title="套接字架构"></a>套接字架构</h2><hr>
-<p><p align="center"><img src="http://dn-huangweipro.qbox.me/static/img/winsock1.gif" alt="图1"></p></p>
+<p><p align="center"><img src="http://huangwei.pro/static/img/winsock1.gif" alt="图1"></p></p>
 <p>应用程序使用Winsock与传输协议驱动沟通时AFD.SYS负责缓冲区的管理。这就意味着当一个程序调用send或者WSASend发送数据时，数据将被复制到AFD.SYS它自己的内部缓冲区中（依赖SO_SNDBUF的设置）WSASend调用立即返回。然后AFD.SYS在程序后台将数据发送出去。当然，如果程序想要处理一个比SO_SNDBUF设置的缓冲区需求更大的发送请求，WSASend的调用就会阻塞直到所有的数据都被发送出去。</p>
 <p>类似的，从远程客户端接收数据时，只要SO_RCVBUF设置的缓冲区还没有满，AFD.SYS就会将数据复制进它自己的缓冲区直到所有的发送都已完成。当程序调用recv或者是WSARecv，数据就从AFD.SYS的缓冲区复制到了程序提供的缓冲区中了。</p>
         
@@ -802,7 +802,7 @@ var _hmt = _hmt || [];
 <p>书上看到一种很好玩的一种构造算法。</p>
 <p>用来构造所有具有 $m\bot n$的非负分数 $m/n$集合，称为Stem-Brocot tree。</p>
 <p>建树思想是：<br>从两个分数$（0/1， 1/0）$开始，重复以下操作，在两个邻接的分数 $m/n$和 $m’/n’$之间插入 $(m+m’)/(n+n’)$。</p>
-<p><p align="center"><img src="http://dn-huangweipro.qbox.me/static/img/relative_primality.JPG" alt="relative primality"></p></p>
+<p><p align="center"><img src="http://huangwei.pro/static/img/relative_primality.JPG" alt="relative primality"></p></p>
 <p>这颗树构造能保证相同分数不会出现两次，基于以下事实：</p>
 <p>如果在任何构造阶段 $m/n$和 $m’/n’$是相继的分数，则有 $m’n - mn’ = 1$</p>
 <p>证明：</p>
@@ -1043,6 +1043,14 @@ MathJax.Hub.Queue(function() {
               </li>
              
               <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="js-tag color2">random</a>
+              </li>
+             
+              <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="js-tag color3">distribution</a>
+              </li>
+             
+              <li class="article-tag-list-item">
                 <a href="javascript:void(0)" class="js-tag color3">2d</a>
               </li>
              
@@ -1055,6 +1063,14 @@ MathJax.Hub.Queue(function() {
               </li>
              
               <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="js-tag color3">dev-log</a>
+              </li>
+             
+              <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="js-tag color3">go</a>
+              </li>
+             
+              <li class="article-tag-list-item">
                 <a href="javascript:void(0)" class="js-tag color4">number_theory</a>
               </li>
              
@@ -1064,22 +1080,6 @@ MathJax.Hub.Queue(function() {
              
               <li class="article-tag-list-item">
                 <a href="javascript:void(0)" class="js-tag color5">tutorials</a>
-              </li>
-             
-              <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color2">random</a>
-              </li>
-             
-              <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color3">distribution</a>
-              </li>
-             
-              <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color3">dev-log</a>
-              </li>
-             
-              <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color3">go</a>
               </li>
              
               <li class="article-tag-list-item">
